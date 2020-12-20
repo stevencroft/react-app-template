@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "start": "npm run build && live-server dist"
+    "start": "npm run build && live-server dist",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +17,10 @@
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "live-server": "^1.2.1",
-    "parcel-bundler": "^1.10.3",
+    "parcel-bundler": "^1.12.4",
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
-  }
+    "react-dom": "^16.14.0",
+    "snyk": "^1.437.2"
+  },
+  "snyk": true
 }

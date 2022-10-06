@@ -20,7 +20,7 @@
     "parcel-bundler": "^1.12.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "snyk": "^1.437.2"
+    "snyk": "^1.1024.0"
   },
   "snyk": true
 }
